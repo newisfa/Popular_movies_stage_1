@@ -167,7 +167,6 @@ public class MoviesListFragment extends Fragment implements
     }
 
     public interface Callback {
-        // TODO: Update argument type and name
         public void movieSelected(MovieModel movie);
     }
     public static class MovieLoader extends AsyncTaskLoader<List<MovieModel>> {
